@@ -1,0 +1,1 @@
+F:\\IDEA_Projects\\myblog\\myblog-springboot\\logs\\${appName}.%d{yyyy-MM-dd}

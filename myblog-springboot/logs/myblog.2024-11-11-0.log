@@ -1,0 +1,464 @@
+[TraceId: ] 2024-11-11 10:32:28.550 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 13160 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:32:28.553 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:32:29.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:32:29.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:32:29.148 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:32:29.148 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:32:29.150 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:32:29.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:32:29.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:32:29.208 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:32:29.208 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 625 ms
+[TraceId: ] 2024-11-11 10:32:29.466 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:32:29.471 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.312 seconds (JVM running for 1.994)
+[TraceId: ] 2024-11-11 10:32:52.094 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1721310239,1721570042] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[TraceId: ] 2024-11-11 10:32:52.110 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:32:52.110 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:32:52.110 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-11-11 10:32:52.157 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[TraceId: d0e93d79-3f13-4ba8-95c5-4ffde51e35a9] 2024-11-11 10:38:26.864 [http-nio-8080-exec-5] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: d0e93d79-3f13-4ba8-95c5-4ffde51e35a9] 2024-11-11 10:38:26.896 [http-nio-8080-exec-5] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 64ms, 出参: {"username":"sqnugy","sex":1} =================================== 
+[TraceId: ] 2024-11-11 10:38:42.428 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 9932 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:38:42.430 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:38:43.164 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:38:43.227 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:38:43.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 769 ms
+[TraceId: ] 2024-11-11 10:38:43.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:38:43.564 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.459 seconds (JVM running for 2.184)
+[TraceId: ] 2024-11-11 10:38:49.096 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:38:49.096 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:38:49.097 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: a9610288-f85c-43ab-aee7-8962c2e03146] 2024-11-11 10:38:49.245 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: a9610288-f85c-43ab-aee7-8962c2e03146] 2024-11-11 10:38:49.262 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 40ms, 出参: {"headers":{},"body":"参数没有任何问题","statusCodeValue":200,"statusCode":"OK"} =================================== 
+[TraceId: d8ae2920-cb27-409c-8eaa-587077bb876b] 2024-11-11 10:39:06.437 [http-nio-8080-exec-3] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null,"age":120,"email":"123124qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空]
+Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]
+Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空]
+Field error in object 'user' on field 'email': rejected value [123124qq.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@574b2e29,.*]; default message [邮箱格式不正确], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: d8ae2920-cb27-409c-8eaa-587077bb876b] 2024-11-11 10:39:06.437 [http-nio-8080-exec-3] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"headers":{},"body":"性别不能为空, 年龄必须小于或等于 100, 用户名不能为空, 邮箱格式不正确","statusCodeValue":400,"statusCode":"BAD_REQUEST"} =================================== 
+[TraceId: f227c3f3-ed4c-477d-87f8-34fa0a4bbc6a] 2024-11-11 10:42:54.580 [http-nio-8080-exec-5] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null,"age":120,"email":"123124qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空]
+Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]
+Field error in object 'user' on field 'email': rejected value [123124qq.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@574b2e29,.*]; default message [邮箱格式不正确]
+Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: f227c3f3-ed4c-477d-87f8-34fa0a4bbc6a] 2024-11-11 10:42:54.580 [http-nio-8080-exec-5] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"headers":{},"body":"性别不能为空, 年龄必须小于或等于 100, 邮箱格式不正确, 用户名不能为空","statusCodeValue":400,"statusCode":"BAD_REQUEST"} =================================== 
+[TraceId: ] 2024-11-11 10:43:04.433 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 15872 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:43:04.435 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:43:05.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:43:05.168 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:43:05.168 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:43:05.168 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:43:05.171 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:43:05.177 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:43:05.177 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:43:05.228 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:43:05.228 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 762 ms
+[TraceId: ] 2024-11-11 10:43:05.521 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:43:05.526 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.468 seconds (JVM running for 2.118)
+[TraceId: ] 2024-11-11 10:43:11.806 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:43:11.814 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:43:11.814 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: 10e6cdee-d558-42fa-88c4-c1fac37ce837] 2024-11-11 10:43:12.424 [http-nio-8080-exec-1] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null,"age":120,"email":"123124qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'user' on field 'email': rejected value [123124qq.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@9033455,.*]; default message [邮箱格式不正确]
+Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]
+Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空]
+Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 10e6cdee-d558-42fa-88c4-c1fac37ce837] 2024-11-11 10:43:12.464 [http-nio-8080-exec-1] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 128ms, 出参: {"success":false,"message":"邮箱格式不正确, 年龄必须小于或等于 100, 性别不能为空, 用户名不能为空","errorCode":null,"data":null} =================================== 
+[TraceId: 86c3b73e-741a-4c4c-be44-bf06f5f166c4] 2024-11-11 10:43:23.877 [http-nio-8080-exec-3] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 86c3b73e-741a-4c4c-be44-bf06f5f166c4] 2024-11-11 10:43:23.877 [http-nio-8080-exec-3] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2024-11-11 10:44:27.769 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 10652 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:44:27.771 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:44:28.410 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:44:28.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:44:28.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:44:28.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:44:28.414 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:44:28.419 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:44:28.420 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:44:28.473 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:44:28.473 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 669 ms
+[TraceId: ] 2024-11-11 10:44:28.731 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:44:28.737 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.413 seconds (JVM running for 2.215)
+[TraceId: ] 2024-11-11 10:44:33.549 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:44:33.550 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:44:33.551 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 08c6adf1-9682-4d96-b42e-16b3089875a7] 2024-11-11 10:44:33.700 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 08c6adf1-9682-4d96-b42e-16b3089875a7] 2024-11-11 10:44:33.710 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 36ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2024-11-11 10:55:53.096 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 19028 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:55:53.099 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:55:53.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:55:53.835 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:55:53.835 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:55:53.835 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:55:53.841 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:55:53.848 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:55:53.848 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:55:53.897 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:55:53.897 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 767 ms
+[TraceId: ] 2024-11-11 10:55:54.256 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:55:54.257 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.548 seconds (JVM running for 2.222)
+[TraceId: ] 2024-11-11 10:56:20.679 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:56:20.679 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:56:20.679 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: 777278b5-9631-4065-801f-049243dcc3c7] 2024-11-11 10:56:21.196 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2024-11-11 10:56:21.236 [http-nio-8080-exec-2] WARN  c.s.myblog.common.exception.GlobalExceptionHandler - /test request fail, errorCode: 20000, errorMessage: 该产品不存在（测试使用）
+[TraceId: ] 2024-11-11 10:58:34.010 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 13168 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 10:58:34.012 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 10:58:34.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 10:58:34.823 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 10:58:34.823 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 10:58:34.823 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 10:58:34.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 10:58:34.831 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 10:58:34.831 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 10:58:34.885 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 10:58:34.885 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 840 ms
+[TraceId: ] 2024-11-11 10:58:35.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 10:58:35.248 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.607 seconds (JVM running for 2.246)
+[TraceId: ] 2024-11-11 10:58:41.790 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:58:41.791 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 10:58:41.791 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: 8b07faa9-f356-49e3-bd39-6dfd676c00a1] 2024-11-11 10:58:41.942 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2024-11-11 10:58:41.953 [http-nio-8080-exec-2] ERROR c.s.myblog.common.exception.GlobalExceptionHandler - /test request error, 
+java.lang.ArithmeticException: / by zero
+	at com.sqnugy.myblog.web.controller.TestController.test(TestController.java:35)
+	at com.sqnugy.myblog.web.controller.TestController$$FastClassBySpringCGLIB$$6716a010.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.sqnugy.myblog.common.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.sqnugy.myblog.web.controller.TestController$$EnhancerBySpringCGLIB$$8bb2fe23.test(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[TraceId: 5ccb11dd-0625-4833-814a-492bddfd60af] 2024-11-11 10:58:45.215 [http-nio-8080-exec-3] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2024-11-11 10:58:45.216 [http-nio-8080-exec-3] ERROR c.s.myblog.common.exception.GlobalExceptionHandler - /test request error, 
+java.lang.ArithmeticException: / by zero
+	at com.sqnugy.myblog.web.controller.TestController.test(TestController.java:35)
+	at com.sqnugy.myblog.web.controller.TestController$$FastClassBySpringCGLIB$$6716a010.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.sqnugy.myblog.common.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.sqnugy.myblog.web.controller.TestController$$EnhancerBySpringCGLIB$$8bb2fe23.test(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[TraceId: ] 2024-11-11 11:00:56.662 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 20112 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:00:56.663 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:00:57.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:00:57.304 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:00:57.304 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:00:57.304 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:00:57.307 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:00:57.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:00:57.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:00:57.359 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:00:57.359 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 664 ms
+[TraceId: ] 2024-11-11 11:00:57.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:00:57.671 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.368 seconds (JVM running for 1.983)
+[TraceId: ] 2024-11-11 11:01:08.292 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:01:08.292 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:01:08.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 4ddf2e8b-013f-4417-a9ca-0f4dca9ae491] 2024-11-11 11:01:08.424 [http-nio-8080-exec-1] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"sqnugy","sex":1,"age":32,"email":"123124@qq.com"}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 4ddf2e8b-013f-4417-a9ca-0f4dca9ae491] 2024-11-11 11:01:08.435 [http-nio-8080-exec-1] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 20ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2024-11-11 11:01:14.898 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 2580 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:01:14.898 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:01:15.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:01:15.565 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:01:15.566 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:01:15.566 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:01:15.568 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:01:15.574 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:01:15.574 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:01:15.632 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:01:15.632 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 703 ms
+[TraceId: ] 2024-11-11 11:01:15.937 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:01:15.942 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.427 seconds (JVM running for 2.087)
+[TraceId: ] 2024-11-11 11:01:22.911 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:01:22.911 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:01:22.912 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: e3504f36-815a-4855-919d-4fa902810772] 2024-11-11 11:01:23.041 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"犬小哈","sex":1,"age":32,"email":"123124@qq.com"}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: e3504f36-815a-4855-919d-4fa902810772] 2024-11-11 11:01:23.052 [http-nio-8080-exec-2] INFO  c.s.myblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 20ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2024-11-11 11:03:25.639 [http-nio-8080-exec-5] ERROR c.s.myblog.common.exception.GlobalExceptionHandler - /test request error, 
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.sqnugy.myblog.common.utils.Response com.sqnugy.myblog.web.controller.TestController.test(com.sqnugy.myblog.web.model.User) with 3 errors: [Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空]] [Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空]] [Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[TraceId: ] 2024-11-11 11:03:34.165 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 21320 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:03:34.167 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:03:34.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:03:34.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:03:34.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:03:34.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:03:34.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:03:34.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:03:34.937 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:03:34.993 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:03:34.993 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 791 ms
+[TraceId: ] 2024-11-11 11:03:35.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:03:35.279 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.502 seconds (JVM running for 2.123)
+[TraceId: ] 2024-11-11 11:03:37.401 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:03:37.401 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:03:37.402 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: ] 2024-11-11 11:03:37.529 [http-nio-8080-exec-2] WARN  c.s.myblog.common.exception.GlobalExceptionHandler - /test request error, errorCode: 10001, errorMessage: sex 性别不能为空, 当前值: 'null'; age 年龄必须小于或等于 100, 当前值: '120'; username 用户名不能为空, 当前值: ''; 
+[TraceId: ] 2024-11-11 11:10:47.219 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 21072 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:10:47.222 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:10:48.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:10:48.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:10:48.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:10:48.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:10:48.084 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:10:48.090 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:10:48.091 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:10:48.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:10:48.176 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
+[TraceId: ] 2024-11-11 11:10:48.432 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[TraceId: ] 2024-11-11 11:10:48.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:10:48.599 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[TraceId: ] 2024-11-11 11:10:48.602 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[TraceId: ] 2024-11-11 11:10:48.624 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+[TraceId: ] 2024-11-11 11:10:48.692 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.901 seconds (JVM running for 2.583)
+[TraceId: ] 2024-11-11 11:11:00.069 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1721310239,1721570042] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[TraceId: ] 2024-11-11 11:11:00.085 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:11:00.085 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:11:00.085 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-11-11 11:20:37.613 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 3208 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:20:37.616 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:20:38.310 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:20:38.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:20:38.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:20:38.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:20:38.314 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:20:38.320 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:20:38.320 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:20:38.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:20:38.412 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 768 ms
+[TraceId: ] 2024-11-11 11:20:38.799 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:20:38.805 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.56 seconds (JVM running for 2.25)
+[TraceId: ] 2024-11-11 11:20:47.315 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1721310239,1721570042] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[TraceId: ] 2024-11-11 11:20:47.331 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:20:47.331 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:20:47.331 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-11-11 11:21:16.148 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 17276 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:21:16.150 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:21:16.816 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:21:16.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:21:16.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:21:16.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:21:16.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:21:16.824 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:21:16.824 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:21:16.881 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:21:16.882 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+[TraceId: ] 2024-11-11 11:21:17.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:21:17.191 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.414 seconds (JVM running for 2.072)
+[TraceId: ] 2024-11-11 11:21:29.544 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 7328 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:21:29.547 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:21:30.203 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:21:30.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:21:30.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:21:30.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:21:30.207 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:21:30.213 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:21:30.213 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:21:30.282 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:21:30.282 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
+[TraceId: ] 2024-11-11 11:21:30.573 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:21:30.578 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.441 seconds (JVM running for 2.111)
+[TraceId: ] 2024-11-11 11:21:48.394 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Starting MyblogWebApplication using Java 1.8.0_431 on Legion-yaoyao with PID 19752 (F:\IDEA_Projects\myblog\myblog-springboot\myblog-web\target\classes started by LeoWu in F:\IDEA_Projects\myblog\myblog-springboot)
+[TraceId: ] 2024-11-11 11:21:48.395 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-11-11 11:21:48.991 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-11-11 11:21:48.991 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-11-11 11:21:48.991 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-11-11 11:21:48.991 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-11-11 11:21:48.994 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-11-11 11:21:48.999 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-11-11 11:21:48.999 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-11-11 11:21:49.064 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-11-11 11:21:49.065 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 645 ms
+[TraceId: ] 2024-11-11 11:21:49.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-11-11 11:21:49.317 [main] INFO  com.sqnugy.myblog.web.MyblogWebApplication - Started MyblogWebApplication in 1.244 seconds (JVM running for 1.839)
+[TraceId: ] 2024-11-11 11:22:01.437 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1721310239,1721570042] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[TraceId: ] 2024-11-11 11:22:01.443 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:22:01.444 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-11-11 11:22:01.444 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
